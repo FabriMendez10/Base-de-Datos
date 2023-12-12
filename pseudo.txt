@@ -1,0 +1,45 @@
+Pseudocodigo de "SetupMagic" para calcular donde se relacionan los clientes y los productos para costo total de los productos comprados por los clientes y todas la ventas realizadas. 
+
+
+
+Inicio
+--Variables
+totalVentas = 0
+
+-- Estructura repetitiva para gestionar múltiples clientes
+repetir mientras haya más clientes {
+    -- Variables por cliente
+    totalCliente = 0
+    cantidadProductos = 0
+
+    -- Mostrar productos disponibles
+    mostrarProductos()
+
+    -- Estructura repetitiva para gestionar múltiples productos por cliente
+    repetir mientras el cliente desee comprar más productos {
+        -- Solicitar al cliente seleccionar un producto
+        productoSeleccionado = seleccionarProducto()
+
+        -- Solicitar la cantidad de unidades del producto
+        cantidad = solicitarCantidad()
+
+        -- Calcular el costo del producto seleccionado
+        costoProducto = calcularCostoProducto(productoSeleccionado, cantidad)
+
+        -- Acumular el costo del producto al total del cliente
+        totalCliente = totalCliente + costoProducto
+
+        -- Incrementar el contador de productos comprados por el cliente
+        cantidadProductos = cantidadProductos + cantidad
+    }
+
+    -- Mostrar resumen de la compra del cliente
+    mostrarResumenCompra(totalCliente, cantidadProductos)
+
+    -- Acumular el total del cliente al total general de ventas
+    totalVentas = totalVentas + totalCliente
+}
+
+-- Mostrar resumen total de ventas
+mostrarResumenTotal(totalVentas)
+Fin
