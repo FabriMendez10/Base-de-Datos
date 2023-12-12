@@ -1,0 +1,16 @@
+“Setup Magic” es una tienda tecnologica la cual quiere una base de datos que controlar sus ventas para asi tener información de  distintas categorias. Estas se dividen en  tres categorías esenciales: “Clientes”, “Productos” y  “Compras”. En la categoria "Clientes", almacenamos detalles  como nombres, números de teléfono, Documento, direcciones de correo electrónico, la cual cada uno de ellos también tendrá un codigo unico para identificarlos La categoría "Productos" incluye nombres de productos, marcas, color, precios y cantidades en stock, incluyendo igualmente un codigo unico para agilizar la compra.
+“Setup Magic” no realiza envios, ni ventas online, toda la tienda y ventas es fisica.
+En cuanto a la categoría "Compras", aquí es donde se relacionan todas las piezas . Se registra quién compra qué producto, la cantidad adquirida, el precio total, la fecha de compra y el método de pago utilizado. Todo esto es necesario para saber las tendencias de la tienda y saber que metodo de pago es mas usado, para que a futuro sea productivo para ofertas.
+
+Estos atributos relacionados nos permiten conocer a los clientes, los productos que compran y cuándo realizan sus ventas . Además, facilitan la gestión de la tienda, asegurando que siempre se tenga suficientes productos en stock para satisfacer las necesidades de los clientes tecnológicos.
+
+
+
+En ingles:
+
+“Setup Magic” is a technology store that wants a database to manage its sales and gather information across different categories. These categories are divided into three essential sections: “Customers,” “Products,” and “Purchases.” In the "Customers" category, details such as names, phone numbers, documents, email addresses are stored, each with a unique code for identification. The "Products" category includes product names, brands, colors, prices, and stock quantities, also with a unique code to streamline the purchasing process.
+
+“Setup Magic” doesn’t handle shipments or online sales; all transactions occur in-store. 
+The "Purchases" category is where all the pieces come together. It records who buys what product, the quantity purchased, total price, day pay, and the payment method used. This information is crucial for understanding store trends and identifying the most commonly used payment methods to guide future offers.
+
+These interconnected attributes enable understanding client, their purchasing patterns, and when they make their purchases. Moreover, they facilitate store management, ensuring there’s always enough stock to meet the needs of tecnology client.
